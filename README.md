@@ -9,7 +9,7 @@ This is a Sentment Analysis tool written in Python using TextBlob libary. It is 
 ## Use
 ```
 pip install textblob
-git clone 
+git clone https://github.com/FL45H20/SentiAnalysis.git
 cd SentiAnalysis
 python sentianalysis.py
 ```
