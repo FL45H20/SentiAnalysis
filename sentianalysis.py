@@ -15,5 +15,5 @@ para =  TextBlob(para)
 
 #get sentinent
 #Polarity is float which lies in the range of [-1,1] where 1 means positive
-#subjectivity is float liew beween [0,1] where 1 means factual info while 0 means opinion.
+#Subjectivity is float liew beween [0,1] where 1 means personal opinion, emotion or judgment whereas 0 means objective which is factual information
 print ("Polarity: " + str(para.sentiment.polarity) + " Subjectivity: " + str(para.sentiment.subjectivity))
